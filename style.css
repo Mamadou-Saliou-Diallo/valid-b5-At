@@ -300,6 +300,7 @@ body{
     width: 97%;
     height: 500px;
     opacity: 0.9;
+    flex-wrap: wrap;
 }
 .price1{
     font-size: 30px;
