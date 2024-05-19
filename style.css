@@ -1,0 +1,296 @@
+.navbar {
+    background-color:white;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav {
+    margin-left: 20%;
+}
+.dropdown-menu .dropdown-item{
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: 500;
+}
+.btn-group .dropdown-toggle{
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: 500;
+}
+.orange {
+    color:red;
+}
+.nav-item .nav-link {
+    position: relative;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.63);
+    display: inline-block;
+    font-size: 17px;
+}
+.nav-item .nav-link::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: red;
+    transition: 0.3s;
+    bottom: 0;
+}
+.nav-item .nav-link.active::after,
+.nav-item .nav-link:hover::after {
+    width: 100%;
+}
+
+.btn-group::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: red;
+    transition: 0.3s;
+    bottom: 0;
+}
+.btn-group.active::after,
+.btn-group:hover::after{
+    width: 100%;
+}
+.pp{
+    font-size: 17px;
+}
+.gauche{
+    padding-top: 10%;
+}
+.bout{
+    width: 180px;
+    box-shadow: 1px 2px 3px 3px rgba(255, 0, 0, 0.151);
+}
+.h1{
+    font-family: "Amatic SC", sans-serif;
+}
+.bac{
+    background-image: url(image/about.jpg);
+}
+.blanc{
+    margin-top: 90%;
+}
+.size{
+    font-size: 17px;
+}
+.rose{
+    background-color: #fae7e7;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+/* ----------------------------CSS--Saliou-------------------------- */
+
+.swiper-wrapper{
+    height: 500px;
+    opacity: 0.8;
+}
+
+.contact .info-item {
+    background: #f4f4f4;
+    padding: 30px;
+    height: 100%;
+}
+
+.contact .info-item .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 0;
+    color: #fff;
+    background: #ce1212;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+#btn2{
+    background: #ce1212;
+    color: white;
+    border: none;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.chefs .chef-member .member-img:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url(image/team-shape.svg) no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+.section-bg {
+    background-color: #eee;
+}
+.ection {
+    overflow: hidden;
+    padding: 80px 0;
+    scroll-margin-top: 90px;
+    overflow: clip;
+}
+
+.section-header p span {
+    color: #ce1212;
+}
+.head{
+    text-align: center;
+}
+.section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+    font-family: "Caveat", cursive;
+
+  text-align: center;
+}
+
+.section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.book-a-table .reservation-form-bg {
+    background: rgba(55, 55, 63, 0.04);
+}
+
+
+ #img-form{
+    background-size: cover;
+    height: 500px;
+    padding: 40px;
+} 
+ #pousse{
+    padding: 40px;
+ }
+
+.contact .php-email-form button[type=submit] {
+    background: var(--color-primary);
+    border: 0;
+    padding: 12px 40px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.footer {
+    font-size: 14px;
+    background-color: #1f1f24;
+    padding: 50px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.d-flex {
+    display: flex !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+.footer .footer-links {
+    margin-bottom: 30px;
+}
+
+.d-flex {
+    display: flex !important;
+}
+.swiper-wrapper{
+    display: flex;
+    gap: 2%;
+}
+.swiper-slide1{
+    border: 7px solid red;
+}
+footer .credits a, #eml{
+    color: #fff;
+    text-decoration: none;
+}
+#emls{
+    color: black;
+    text-decoration: none;
+}
+.php-email-form{
+    margin: 30px;
+}
+
+.section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-primary: "Amatic SC", sans-serif;
+}
+.form-group{
+    margin-top: 2%;
+}
+.foot{
+    margin-left: 4%;
+}
+
+@media (min-width: 768px) {
+    .p-md-4 {
+        /* padding: 1.5rem !important; */
+    }
+}
+.p-3 {
+    padding: 1rem !important;
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+}
