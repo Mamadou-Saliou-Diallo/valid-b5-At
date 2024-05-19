@@ -294,7 +294,6 @@
 /* ----------------------------CSS--Saliou-------------------------- */
 
 .swiper-wrapper{
-    width: 97%;
     height: 500px;
     opacity: 0.9;
 }
@@ -371,11 +370,11 @@ svg{
     unicode-bidi: isolate;
 }
 
-/* .row>* {
+.row>* {
     flex-shrink: 0;
-    width: 100%;
+    width: 90%;
     max-width: 100%;
-} */
+}
 
 .book-a-table .reservation-form-bg {
     background: rgba(55, 55, 63, 0.04);
