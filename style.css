@@ -40,6 +40,9 @@ body{
     transition: 0.3s;
     bottom: 0;
 }
+.row{
+    flex-wrap: wrap;
+}
 .nav-item .nav-link.active::after,
 .nav-item .nav-link:hover::after {
     width: 100%;
@@ -296,10 +299,14 @@ body{
 
 /* ----------------------------CSS--Saliou-------------------------- */
 
-.swiper-wrapper{
-    height: 500px;
+.swiper-wrappers{
+    height: 100%;
     opacity: 0.9;
     flex-wrap: wrap;
+}
+.col-md-4{
+    width: 50%;
+    height: 100%;
 }
 .price1{
     font-size: 30px;
